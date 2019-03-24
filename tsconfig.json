@@ -10,7 +10,7 @@
 		"baseUrl": ".",
 		"declaration": true,
 		"paths": {
-			"HIS": ["./src"]
+			"Muguet": ["./src"]
 		},
 		"target": "es5",
 		"outDir": "./release/es",

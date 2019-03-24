@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"jsx": "react",
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"noImplicitAny": true,
+		"baseUrl": ".",
+		"declaration": true,
+		"paths": {
+			"HIS": ["./src"]
+		},
+		"target": "es5",
+		"outDir": "./release/es",
+		"lib": ["dom", "es7", "es6", "es5"]
+	},
+	"exclude": ["node_modules", "config"],
+	"include": ["src"]
+}

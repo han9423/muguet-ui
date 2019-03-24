@@ -1,0 +1,32 @@
+@import './defualtColor.scss';
+
+@mixin gradientLinearColor($value...){
+    background:  -webkit-linear-gradient($value);
+    background:  -moz-linear-gradient($value);
+    background:  -ms-linear-gradient($value);
+    background:  -o-linear-gradient($value);
+    background: linear-gradient($value);
+}
+
+@mixin gradientRadialColor($value...){
+    background:  -webkit-radial-gradient($value);
+    background:  -moz-radial-gradient($value);
+    background:  -ms-radial-gradient($value);
+    background:  -o-radial-gradient($value);
+    background: radial-gradient($value);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

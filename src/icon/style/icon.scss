@@ -1,0 +1,9 @@
+@import '../../stylesheet/mixin.scss';
+@import '../../stylesheet/color/gradientColor.scss';
+@import '../../stylesheet/color/defualtColor.scss';
+
+
+.car{
+    @include gradientLinearColor(20deg, $blue-d, $green-f);
+    // background: url('../../../assets/backlogin1.jpeg');
+}
